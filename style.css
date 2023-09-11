@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background-color: purple;
+    color: aliceblue;
+    display: flex;
+    position: sticky;
+}
+.navigation h2{
+    padding-right: 60%;
+    padding-left: 30px;
+}
+.links{
+    display: flex;
+    right: 0;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+}
+a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s ease-out;
+}
+
+.hero-section{
+    background-image: url(images/hero_image.png);
+    color: white;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    place-items: center;
+    text-align: center;
+}
+.music-section{
+    padding-top: 50px;
+    background: purple;
+}
+.primary-btn button{
+    background-color: rgb(70, 1, 70);
+    color: white;
+}
+.primary-btn button:hover{
+    opacity: 0.8;
+    transition: 0.2 ease-in-out;
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+i{
+    padding: 5px;
+}
+span{
+    font-size: 30px;
+}
+.ipad{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.secondary-btn button{
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+}
+.secondary-btn button:hover{
+    opacity: 0.8;
+    transition: 0.2 ease-in-out;
+}
+.more-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+.more-music .mac{
+    margin-top: 25px;
+}
+.video-page{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/video.png);
+    color: white;
+}
+.gift_cards{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    margin: 40px;
+
+}
+.box h2{
+    margin-bottom: 20px;
+}
+.box p{
+    margin-bottom: 15px;
+}
+footer{
+    height: 250px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
